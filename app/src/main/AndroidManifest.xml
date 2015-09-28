@@ -1,0 +1,67 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.thinkware.tokumon"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/kaiden_icon"
+        android:allowBackup="false"
+        android:label="@string/app_name"
+        android:theme="@style/CustomAppTheme" >
+        <activity
+            android:name=".app.activities.AnswerPopupActivity"
+            android:theme="@style/Theme.CustomPopupWindow"
+            android:noHistory="true"
+            android:label="@string/title_answer_popup" >
+        </activity>
+        <activity
+            android:name=".app.activities.SplashActivity"
+            android:noHistory="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".app.activities.MainMenuActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".app.activities.CourseMenuActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".app.activities.ExamStartActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".app.activities.QuestionActivity"
+            android:label="@string/title_question">
+        </activity>
+        <activity
+            android:name=".app.activities.QuestionPopupActivity"
+            android:label="@string/title_question_list">
+        </activity>
+        <activity
+            android:name=".app.activities.AnswerEndActivity"
+            android:label="@string/title_answer_end">
+        </activity>
+        <activity
+            android:name=".app.activities.AnswerResultActivity"
+            android:theme="@style/CustomWindowTitle"
+            android:label="@string/title_answer_result">
+        </activity>
+        <activity
+            android:name=".app.activities.AnswerQuestionPopupActivity"
+            android:theme="@style/Theme.CustomPopupWindow"
+            android:noHistory="true"
+            android:label="@string/title_answer_question_popup">
+        </activity>
+    </application>
+
+</manifest>

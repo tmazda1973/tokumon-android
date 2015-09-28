@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <!-- [選択]イメージ -->
+    <ImageView
+      android:id="@+id/image_list_row_choices_checked"
+      android:layout_width="wrap_content"
+      android:layout_height="fill_parent"
+      android:scaleType="fitStart"
+      android:layout_marginLeft="5dp"
+      android:contentDescription="@string/desc_image_choices_checked"
+      />
+
+    <!-- [選択肢番号]テキスト -->
+    <TextView 
+      android:id="@+id/text_list_row_choices_no"
+      android:layout_width="wrap_content"
+      android:layout_height="fill_parent"
+      android:layout_marginLeft="5dp"
+      android:gravity="top|center_vertical"
+      android:text="(1)"
+      android:textColor="#336b38"
+      />
+
+    <!-- [選択肢内容]テキスト -->
+    <TextView 
+      android:id="@+id/text_list_row_choices_content"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="5dp"
+      android:layout_weight="1"
+      android:gravity="top|center_vertical"
+      android:textColor="#336b38"
+      android:scrollHorizontally="false"
+      android:text="aaaaaaaa"
+      android:minLines="3"
+      />
+
+    <!-- [正解]イメージ -->
+    <ImageView
+      android:id="@+id/image_list_row_choices_correct"
+      android:layout_width="32dp"
+      android:layout_height="32dp"
+      android:scaleType="fitStart"
+      android:layout_marginRight="5dp"
+      android:contentDescription="@string/desc_image_correct"
+      />
+
+</LinearLayout>

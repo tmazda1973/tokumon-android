@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * [解答結果一覧]
+ * ・解答結果画面の一覧ビュー(ListView)のレイアウトです。
+ */
+ -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingRight="2dp"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <!-- [設問番号]テキスト -->
+    <TextView
+      android:id="@+id/text_list_row_question_no"
+      android:layout_width="wrap_content"
+      android:layout_height="fill_parent"
+      android:layout_marginLeft="3dp"
+      android:textColor="#336b38"
+      android:gravity="center_vertical"
+      android:text="問01"
+      />
+
+    <!-- [設問内容]テキスト -->
+    <TextView
+      android:id="@+id/text_list_row_question"
+      android:layout_width="0dp"
+      android:layout_height="fill_parent"
+      android:layout_marginLeft="3dp"
+      android:layout_weight="1"
+      android:gravity="center_vertical"
+      android:textColor="#336b38"
+      android:text="1234567890123456789012345678901234567890123456789012345678901234567890"
+      android:scrollHorizontally="true"
+      android:ellipsize="end"
+      android:lines="1"
+      />
+
+    <!-- [解答]テキスト -->
+    <TextView
+      android:id="@+id/text_list_row_answer"
+      android:layout_width="wrap_content"
+      android:layout_height="fill_parent"
+      android:layout_marginLeft="3dp"
+      android:gravity="center_vertical"
+      android:textColor="#336b38"
+      android:text="[4]"
+      />
+
+    <!-- [解答結果]イメージ -->
+    <ImageView
+      android:id="@+id/image_list_row_result"
+      android:layout_width="25dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="3dp"
+      android:gravity="center_vertical"
+      android:scaleType="fitXY"
+      android:contentDescription="@string/desc_image_answer_result"
+      android:src="@drawable/correct"
+      />
+
+     <!-- [矢印]イメージ -->
+    <ImageView
+      android:id="@+id/image_list_row_arrow"
+      android:layout_width="wrap_content"
+      android:layout_height="fill_parent"
+      android:layout_marginLeft="3dp"
+      android:layout_marginRight="3dp"
+      android:gravity="center_vertical"
+      android:scaleType="fitCenter"
+      android:contentDescription="@string/desc_image_list_arrow"
+      android:src="@drawable/green_arrow"
+      />
+
+</LinearLayout>

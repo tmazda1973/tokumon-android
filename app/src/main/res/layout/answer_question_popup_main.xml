@@ -1,0 +1,108 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/answer_qustion_popup_frame"
+    android:background="@drawable/popup_frame"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_answer_question"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_layout_frame"
+        android:orientation="vertical" >
+        <!-- [問題番号/総問題数]テキスト -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <!-- [問題番号]テキスト -->
+            <TextView
+                android:id="@+id/text_answer_question_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="5"
+                android:textColor="#003d8e" />
+            <!-- [問題番号]ラベル(1) -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="@string/label_question_num_unit"
+                android:textColor="#003d8e" />
+            <!-- [問題番号]ラベル(2) -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/label_question_num_separator"
+                android:textColor="#003d8e" />
+            <!-- [総問題数]テキスト -->
+            <TextView
+                android:id="@+id/text_total_question_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="20"
+                android:textColor="#003d8e" />
+            <!-- [問題番号]ラベル(3) -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="@string/label_question_num_unit"
+                android:textColor="#003d8e" />
+        </LinearLayout>
+        <!-- 区切り線  -->
+        <ImageView
+            android:src="@android:drawable/divider_horizontal_textfield"
+            android:contentDescription="@string/desc_devider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" />
+        <!-- [問題内容]スクロール -->
+        <ScrollView
+            android:id="@+id/scroll_answer_question"
+            android:fillViewport="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fadingEdgeLength="25dp"
+            android:scrollbars="vertical">
+            <!-- [問題内容]テキスト -->
+            <TextView
+                android:id="@+id/text_answer_question"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#003d8e" />
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_content"
+        android:layout_marginTop="2pt"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/custom_layout_frame"
+        android:orientation="vertical" >
+        <!-- [選択肢一覧]リスト -->
+        <ListView
+            android:id="@+id/list_answer_question_choices"
+            android:divider="#FF7F50"
+            android:dividerHeight="1dp"
+            android:scrollingCache="false"
+            android:fadingEdge="none"
+            android:fadeScrollbars="false"
+            android:fastScrollEnabled="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+</LinearLayout>

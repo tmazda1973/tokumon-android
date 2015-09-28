@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- 全体 -->
+    <string name="app_name">Kaiden</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">皆伝問題集(仮)</string>
+    <string name="title_test">遷移テスト</string>
+    <string name="btnAns">解答</string>
+    <string name="btnSouc">ｿｰｽ・図</string>
+    <string name="btnList">問題一覧</string>
+    <string name="btnStop">中断</string>
+    <string name="chk01">chk01</string>
+    <string name="chk02">chk02</string>
+    <string name="chk03">chk03</string>
+    <string name="chk04">chk04</string>
+    <string name="txtTime">時間3分21秒</string>
+    <string name="txtTitle">［問題タイトル］</string>
+    <string name="txtNum">問題 5問/20問</string>
+    <string name="course_name">Androidアプリケーション技術者認定試験</string>
+    <string name="label_confirm_dialog_ok">OK</string>
+    <string name="label_confirm_dialog_yes">はい</string>
+    <string name="label_confirm_dialog_no">いいえ</string>
+    <string name="label_question_num_unit">問</string>
+    <string name="label_question_num_separator">/</string>
+    <string name="desc_devider">区切り線</string>
+    <string name="desc_ic_close_popup">閉じる</string>
+    <string name="desc_ic_menu">メニュー</string>
+
+    <!-- [1-A-01-1]: スプラッシュ画面 -->
+
+    <!-- [1-A-02-1]: メインメニュー -->
+    <string name="title_main_menu">コース選択</string>
+
+    <!-- [1-A-03-1]: コース画面 -->
+    <string name="btn_exam_start">練習問題(はじめから)</string>
+    <string name="btn_exam_genre">ジャンル別選択</string>
+    <string name="btn_exam_random">ランダム出題</string>
+
+    <!-- [1-A-04-1]: 開始画面 -->
+    <string name="txt_start_exam">練習問題を開始します</string>
+    <string name="label_question_cnt">設問数</string>
+    <string name="label_question_count_unit">問</string>
+    <string name="val_question_cnt">10問</string>
+    <string name="label_time_limit">制限時間</string>
+    <string name="label_time_limit_unit">分</string>
+    <string name="val_time_limit">なし</string>
+    <string name="txt_touch_screen">画面をタップしてください</string>
+
+    <!-- [1-A-05-1]: 設問画面 -->
+    <string name="title_question">問題</string>
+
+    <!-- [1-A-06-1]: 設問一覧画面 -->
+    <string name="title_question_list">設問一覧</string>
+
+    <!-- [1-A-07-1]： 解答ポップアップ画面 -->
+    <string name="title_answer_popup">解答</string>
+    <string name="label_answer">答え</string>
+    <string name="label_content">解説</string>
+
+    <!-- [1-A-08-1]： 終了画面 -->
+    <string name="title_answer_end">終了</string>
+    <string name="text_end_message_format">%sを終了しました。\n\nお疲れ様でした。</string>
+    <string name="btn_to_answer_result">結果を表示する</string>
+
+    <!-- [1-A-09-1]： 結果表示画面 -->
+    <string name="title_answer_result">結果表示</string>
+    <string name="label_correct_per_1">正解率</string>
+    <string name="label_correct_per_2">%</string>
+    <string name="label_elapsed_time_1">経過時間</string>
+    <string name="label_elapsed_time_2">分</string>
+    <string name="label_list_answer_result">結果</string>
+    <string name="desc_image_answer_result">解答結果</string>
+    <string name="desc_image_list_arrow">→</string>
+    <string name="btn_prev_menu">メニュー画面に戻る</string>
+
+    <!-- [1-A-10-1]： 解答問題ポップアップ画面 -->
+    <string name="title_answer_question_popup">解答問題</string>
+    <string name="desc_image_choices_checked">選択</string>
+    <string name="desc_image_correct">正解</string>
+
+</resources>

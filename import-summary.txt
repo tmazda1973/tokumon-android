@@ -1,0 +1,315 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* doc\
+* doc\.gitignore
+* doc\db\
+* doc\db\Android.erm
+* doc\db\Android.sql
+* doc\javadoc\
+* doc\javadoc\allclasses-frame.html
+* doc\javadoc\allclasses-noframe.html
+* doc\javadoc\constant-values.html
+* doc\javadoc\deprecated-list.html
+* doc\javadoc\help-doc.html
+* doc\javadoc\index-files\
+* doc\javadoc\index-files\index-1.html
+* doc\javadoc\index-files\index-10.html
+* doc\javadoc\index-files\index-11.html
+* doc\javadoc\index-files\index-12.html
+* doc\javadoc\index-files\index-13.html
+* doc\javadoc\index-files\index-14.html
+* doc\javadoc\index-files\index-15.html
+* doc\javadoc\index-files\index-16.html
+* doc\javadoc\index-files\index-17.html
+* doc\javadoc\index-files\index-18.html
+* doc\javadoc\index-files\index-19.html
+* doc\javadoc\index-files\index-2.html
+* doc\javadoc\index-files\index-20.html
+* doc\javadoc\index-files\index-21.html
+* doc\javadoc\index-files\index-3.html
+* doc\javadoc\index-files\index-4.html
+* doc\javadoc\index-files\index-5.html
+* doc\javadoc\index-files\index-6.html
+* doc\javadoc\index-files\index-7.html
+* doc\javadoc\index-files\index-8.html
+* doc\javadoc\index-files\index-9.html
+* doc\javadoc\index.html
+* doc\javadoc\jp\
+* doc\javadoc\jp\thinkware\
+* doc\javadoc\jp\thinkware\kaiden\
+* doc\javadoc\jp\thinkware\kaiden\BuildConfig.html
+* doc\javadoc\jp\thinkware\kaiden\R.attr.html
+* doc\javadoc\jp\thinkware\kaiden\R.color.html
+* doc\javadoc\jp\thinkware\kaiden\R.drawable.html
+* doc\javadoc\jp\thinkware\kaiden\R.html
+* doc\javadoc\jp\thinkware\kaiden\R.id.html
+* doc\javadoc\jp\thinkware\kaiden\R.layout.html
+* doc\javadoc\jp\thinkware\kaiden\R.menu.html
+* doc\javadoc\jp\thinkware\kaiden\R.string.html
+* doc\javadoc\jp\thinkware\kaiden\R.style.html
+* doc\javadoc\jp\thinkware\kaiden\app\
+* doc\javadoc\jp\thinkware\kaiden\app\activities\
+* doc\javadoc\jp\thinkware\kaiden\app\activities\AnswerEndActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\AnswerPopupActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\AnswerQuestionPopupActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\AnswerResultActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\BasePopupActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\CourseMenuActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\DBCreateActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\ExamStartActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\KaidenBaseActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\MainMenuActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\QuestionActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\QuestionPopupActivity.CustomAdapter.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\QuestionPopupActivity.QuestionList.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\QuestionPopupActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\SplashActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\class-use\
+* doc\javadoc\jp\thinkware\kaiden\app\activities\class-use\AnswerEndActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\class-use\AnswerPopupActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\class-use\AnswerQuestionPopupActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\class-use\AnswerResultActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\class-use\BasePopupActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\class-use\CourseMenuActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\class-use\DBCreateActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\class-use\ExamStartActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\class-use\KaidenBaseActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\class-use\MainMenuActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\class-use\QuestionActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\class-use\QuestionPopupActivity.CustomAdapter.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\class-use\QuestionPopupActivity.QuestionList.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\class-use\QuestionPopupActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\class-use\SplashActivity.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\package-frame.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\package-summary.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\package-tree.html
+* doc\javadoc\jp\thinkware\kaiden\app\activities\package-use.html
+* doc\javadoc\jp\thinkware\kaiden\app\common\
+* doc\javadoc\jp\thinkware\kaiden\app\common\util\
+* doc\javadoc\jp\thinkware\kaiden\app\common\util\IOUtils.html
+* doc\javadoc\jp\thinkware\kaiden\app\common\util\ListUtils.html
+* doc\javadoc\jp\thinkware\kaiden\app\common\util\SQLUtils.html
+* doc\javadoc\jp\thinkware\kaiden\app\common\util\StringUtils.html
+* doc\javadoc\jp\thinkware\kaiden\app\common\util\UIContentsUtils.html
+* doc\javadoc\jp\thinkware\kaiden\app\common\util\class-use\
+* doc\javadoc\jp\thinkware\kaiden\app\common\util\class-use\IOUtils.html
+* doc\javadoc\jp\thinkware\kaiden\app\common\util\class-use\ListUtils.html
+* doc\javadoc\jp\thinkware\kaiden\app\common\util\class-use\SQLUtils.html
+* doc\javadoc\jp\thinkware\kaiden\app\common\util\class-use\StringUtils.html
+* doc\javadoc\jp\thinkware\kaiden\app\common\util\class-use\UIContentsUtils.html
+* doc\javadoc\jp\thinkware\kaiden\app\common\util\package-frame.html
+* doc\javadoc\jp\thinkware\kaiden\app\common\util\package-summary.html
+* doc\javadoc\jp\thinkware\kaiden\app\common\util\package-tree.html
+* doc\javadoc\jp\thinkware\kaiden\app\common\util\package-use.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\
+* doc\javadoc\jp\thinkware\kaiden\app\dao\AnswerDao.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\AnswerSheetDao.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\ChoicesDao.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\CourseDao.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\KaidenUserDao.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\QuestionCategoryDao.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\QuestionDao.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\class-use\
+* doc\javadoc\jp\thinkware\kaiden\app\dao\class-use\AnswerDao.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\class-use\AnswerSheetDao.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\class-use\ChoicesDao.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\class-use\CourseDao.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\class-use\KaidenUserDao.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\class-use\QuestionCategoryDao.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\class-use\QuestionDao.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\AnswerDaoImpl.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\AnswerSheetDaoImpl.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\ChoicesDaoImpl.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\CourseDaoImpl.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\KaidenUserDaoImpl.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\QuestionCategoryDaoImpl.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\QuestionDaoImpl.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\class-use\
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\class-use\AnswerDaoImpl.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\class-use\AnswerSheetDaoImpl.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\class-use\ChoicesDaoImpl.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\class-use\CourseDaoImpl.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\class-use\KaidenUserDaoImpl.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\class-use\QuestionCategoryDaoImpl.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\class-use\QuestionDaoImpl.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\package-frame.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\package-summary.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\package-tree.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\impl\package-use.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\package-frame.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\package-summary.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\package-tree.html
+* doc\javadoc\jp\thinkware\kaiden\app\dao\package-use.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\
+* doc\javadoc\jp\thinkware\kaiden\app\dto\AnswerDto.Join.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\AnswerDto.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\AnswerSheetDto.Join.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\AnswerSheetDto.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\ChoicesDto.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\CourseDto.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\KaidenUserDto.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\QuestionCategoryDto.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\QuestionDto.Join.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\QuestionDto.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\class-use\
+* doc\javadoc\jp\thinkware\kaiden\app\dto\class-use\AnswerDto.Join.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\class-use\AnswerDto.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\class-use\AnswerSheetDto.Join.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\class-use\AnswerSheetDto.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\class-use\ChoicesDto.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\class-use\CourseDto.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\class-use\KaidenUserDto.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\class-use\QuestionCategoryDto.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\class-use\QuestionDto.Join.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\class-use\QuestionDto.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\package-frame.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\package-summary.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\package-tree.html
+* doc\javadoc\jp\thinkware\kaiden\app\dto\package-use.html
+* doc\javadoc\jp\thinkware\kaiden\app\helper\
+* doc\javadoc\jp\thinkware\kaiden\app\helper\db\
+* doc\javadoc\jp\thinkware\kaiden\app\helper\db\DatabaseHelper.html
+* doc\javadoc\jp\thinkware\kaiden\app\helper\db\class-use\
+* doc\javadoc\jp\thinkware\kaiden\app\helper\db\class-use\DatabaseHelper.html
+* doc\javadoc\jp\thinkware\kaiden\app\helper\db\package-frame.html
+* doc\javadoc\jp\thinkware\kaiden\app\helper\db\package-summary.html
+* doc\javadoc\jp\thinkware\kaiden\app\helper\db\package-tree.html
+* doc\javadoc\jp\thinkware\kaiden\app\helper\db\package-use.html
+* doc\javadoc\jp\thinkware\kaiden\app\helper\thread\
+* doc\javadoc\jp\thinkware\kaiden\app\helper\thread\ExamTimeThreadHelper.html
+* doc\javadoc\jp\thinkware\kaiden\app\helper\thread\class-use\
+* doc\javadoc\jp\thinkware\kaiden\app\helper\thread\class-use\ExamTimeThreadHelper.html
+* doc\javadoc\jp\thinkware\kaiden\app\helper\thread\package-frame.html
+* doc\javadoc\jp\thinkware\kaiden\app\helper\thread\package-summary.html
+* doc\javadoc\jp\thinkware\kaiden\app\helper\thread\package-tree.html
+* doc\javadoc\jp\thinkware\kaiden\app\helper\thread\package-use.html
+* doc\javadoc\jp\thinkware\kaiden\app\model\
+* doc\javadoc\jp\thinkware\kaiden\app\model\AnswerEndModel.html
+* doc\javadoc\jp\thinkware\kaiden\app\model\AnswerPopupModel.html
+* doc\javadoc\jp\thinkware\kaiden\app\model\AnswerQuestionPopupModel.html
+* doc\javadoc\jp\thinkware\kaiden\app\model\AnswerResultModel.html
+* doc\javadoc\jp\thinkware\kaiden\app\model\ExamStartModel.html
+* doc\javadoc\jp\thinkware\kaiden\app\model\QuestionModel.html
+* doc\javadoc\jp\thinkware\kaiden\app\model\QuestionPopupModel.html
+* doc\javadoc\jp\thinkware\kaiden\app\model\class-use\
+* doc\javadoc\jp\thinkware\kaiden\app\model\class-use\AnswerEndModel.html
+* doc\javadoc\jp\thinkware\kaiden\app\model\class-use\AnswerPopupModel.html
+* doc\javadoc\jp\thinkware\kaiden\app\model\class-use\AnswerQuestionPopupModel.html
+* doc\javadoc\jp\thinkware\kaiden\app\model\class-use\AnswerResultModel.html
+* doc\javadoc\jp\thinkware\kaiden\app\model\class-use\ExamStartModel.html
+* doc\javadoc\jp\thinkware\kaiden\app\model\class-use\QuestionModel.html
+* doc\javadoc\jp\thinkware\kaiden\app\model\class-use\QuestionPopupModel.html
+* doc\javadoc\jp\thinkware\kaiden\app\model\package-frame.html
+* doc\javadoc\jp\thinkware\kaiden\app\model\package-summary.html
+* doc\javadoc\jp\thinkware\kaiden\app\model\package-tree.html
+* doc\javadoc\jp\thinkware\kaiden\app\model\package-use.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\
+* doc\javadoc\jp\thinkware\kaiden\app\view\AnswerEndView.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\AnswerPopupView.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\AnswerQuestionPopupView.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\AnswerResultView.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\QuestionPopupView.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\QuestionView.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\class-use\
+* doc\javadoc\jp\thinkware\kaiden\app\view\class-use\AnswerEndView.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\class-use\AnswerPopupView.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\class-use\AnswerQuestionPopupView.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\class-use\AnswerResultView.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\class-use\QuestionPopupView.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\class-use\QuestionView.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\listener\
+* doc\javadoc\jp\thinkware\kaiden\app\view\listener\CustomOnTouchListener.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\listener\class-use\
+* doc\javadoc\jp\thinkware\kaiden\app\view\listener\class-use\CustomOnTouchListener.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\listener\package-frame.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\listener\package-summary.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\listener\package-tree.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\listener\package-use.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\package-frame.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\package-summary.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\package-tree.html
+* doc\javadoc\jp\thinkware\kaiden\app\view\package-use.html
+* doc\javadoc\jp\thinkware\kaiden\class-use\
+* doc\javadoc\jp\thinkware\kaiden\class-use\BuildConfig.html
+* doc\javadoc\jp\thinkware\kaiden\class-use\R.attr.html
+* doc\javadoc\jp\thinkware\kaiden\class-use\R.color.html
+* doc\javadoc\jp\thinkware\kaiden\class-use\R.drawable.html
+* doc\javadoc\jp\thinkware\kaiden\class-use\R.html
+* doc\javadoc\jp\thinkware\kaiden\class-use\R.id.html
+* doc\javadoc\jp\thinkware\kaiden\class-use\R.layout.html
+* doc\javadoc\jp\thinkware\kaiden\class-use\R.menu.html
+* doc\javadoc\jp\thinkware\kaiden\class-use\R.string.html
+* doc\javadoc\jp\thinkware\kaiden\class-use\R.style.html
+* doc\javadoc\jp\thinkware\kaiden\package-frame.html
+* doc\javadoc\jp\thinkware\kaiden\package-summary.html
+* doc\javadoc\jp\thinkware\kaiden\package-tree.html
+* doc\javadoc\jp\thinkware\kaiden\package-use.html
+* doc\javadoc\overview-frame.html
+* doc\javadoc\overview-summary.html
+* doc\javadoc\overview-tree.html
+* doc\javadoc\package-list
+* doc\javadoc\resources\
+* doc\javadoc\resources\background.gif
+* doc\javadoc\resources\inherit.gif
+* doc\javadoc\resources\tab.gif
+* doc\javadoc\resources\titlebar.gif
+* doc\javadoc\resources\titlebar_end.gif
+* doc\javadoc\serialized-form.html
+* doc\javadoc\stylesheet.css
+* javadoc.xml
+* proguard-project.txt
+* tools\
+* tools\create_db_objects\
+* tools\create_db_objects\Module1.bas
+* tools\create_db_objects\exam_AndroidBasic.xlsx
+* tools\create_db_objects\table_list.xls
+* tools\material\
+* tools\material\correct.png.psd
+* tools\material\kaiden_icon.psd
+* tools\material\splash.psd
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/course_name"
+        />
+
+    <Button
+        android:id="@+id/go_exam_start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/btn_exam_start"
+        />
+
+    <Button
+        android:id="@+id/go_exam_genre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:enabled="false"
+        android:text="@string/btn_exam_genre"
+        />
+
+    <Button
+        android:id="@+id/go_exam_random"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:enabled="false"
+        android:text="@string/btn_exam_random"
+        />
+
+    <Button
+        android:id="@+id/prev_main_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="メインメニューへ戻る"
+        />
+
+</LinearLayout>

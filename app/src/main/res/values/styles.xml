@@ -1,0 +1,32 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- アプリケーション共通（デフォルト） -->
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <!-- アプリケーション共通(拡張) -->
+    <color name="custom_theme_color">#ffeedd</color>
+    <style name="CustomAppTheme" parent="android:Theme.Light" >
+        <item name="android:windowBackground">@color/custom_theme_color</item>
+        <item name="android:colorBackground">@color/custom_theme_color</item>
+    </style>
+
+    <!-- ポップアップ共通(拡張) -->
+    <drawable name="translucent_background">#80F4A460</drawable>
+    <style name="Theme.CustomPopupWindow" parent="android:style/Theme.Translucent">
+<!--
+        <item name="android:windowBackground">@drawable/translucent_background</item>
+ -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- チェックボックス(拡張) -->
+    <style name="CustomCheckBox" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/custom_checkbox</item>
+    </style>
+
+    <!-- タイトルバー(拡張) -->
+    <style name="CustomWindowTitle" parent="CustomAppTheme">
+        <item name="android:windowTitleSize">40sp</item>
+    </style>
+
+</resources>

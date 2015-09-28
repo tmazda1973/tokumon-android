@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/answer_popup_frame"
+    android:background="@drawable/popup_frame"
+    android:orientation="vertical"
+    >
+
+    <!-- [解答]レイアウト -->
+    <LinearLayout
+        android:id="@+id/layout_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_layout_frame"
+        android:orientation="vertical" >
+        <!-- [解答]ラベル -->
+        <TextView
+            android:id="@+id/label_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_border"
+            android:textColor="#336b38"
+            android:text="@string/label_answer" />
+        <!-- [解答]テキスト -->
+        <TextView
+            android:id="@+id/text_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#003d8e" />
+    </LinearLayout>
+
+    <!-- [解説]レイアウト -->
+    <LinearLayout
+        android:id="@+id/layout_content"
+        android:layout_marginTop="2pt"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/custom_layout_frame"
+        android:orientation="vertical" >
+        <!-- [解説]ラベル -->
+        <TextView
+            android:id="@+id/label_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_border"
+            android:textColor="#336b38"
+            android:text="@string/label_content" />
+        <!-- [解説]スクロール -->
+        <ScrollView
+            android:id="@+id/scroll_content"
+            android:fillViewport="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fadingEdgeLength="25dip"
+            android:scrollbars="vertical">
+            <!-- [解説]テキスト -->
+            <TextView
+                android:id="@+id/text_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#003d8e" />
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

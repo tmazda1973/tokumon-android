@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_answer_result_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--
+    //**************************************************************************
+    //* 成績結果
+    //**************************************************************************
+    -->
+    <!-- [成績結果]レイアウト -->
+    <LinearLayout
+        android:id="@+id/layout_answer_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/custom_layout_frame"
+        android:orientation="vertical">
+        <!-- [正解率]レイアウト -->
+        <RelativeLayout
+            android:id="@+id/layout_correct_per"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <!-- [正解率]ラベル(1) -->
+            <TextView
+                android:id="@+id/label_correct_per_1"
+                android:text="@string/label_correct_per_1"
+                android:textColor="#d63a25"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true" />
+            <!-- [正解率]テキスト（値） -->
+            <TextView
+                android:id="@+id/text_correct_per"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="#d63a25"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/label_correct_per_2" />
+            <!-- [正解率]ラベル(2) -->
+            <TextView
+                android:id="@+id/label_correct_per_2"
+                android:text="@string/label_correct_per_2"
+                android:textColor="#d63a25"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <!-- 区切り線  -->
+        <ImageView
+            android:src="@android:drawable/divider_horizontal_textfield"
+            android:contentDescription="@string/desc_devider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" />
+        <!-- [経過時間]レイアウト -->
+        <RelativeLayout
+            android:id="@+id/layout_elapsed_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <!-- [経過時間]ラベル(1) -->
+            <TextView
+                android:id="@+id/label_elapsed_time_1"
+                android:text="@string/label_elapsed_time_1"
+                android:textColor="#d63a25"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true" />
+            <!-- [経過時間]テキスト（値） -->
+            <TextView
+                android:id="@+id/text_elapsed_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="60"
+                android:textColor="#d63a25"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/label_elapsed_time_2" />
+            <!-- [経過時間]ラベル(2) -->
+            <TextView
+                android:id="@+id/label_elapsed_time_2"
+                android:text="@string/label_elapsed_time_2"
+                android:textColor="#d63a25"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="20dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!--
+    //**************************************************************************
+    //* 結果一覧
+    //**************************************************************************
+    -->
+    <!-- [結果一覧]レイアウト -->
+    <LinearLayout
+        android:id="@+id/layout_answer_result_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_layout_frame"
+        android:orientation="vertical"
+        >
+
+        <!-- [結果一覧]ラベル -->
+        <TextView
+            android:id="@+id/label_result_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_border"
+            android:textColor="#336b38"
+            android:text="@string/label_list_answer_result"
+            />
+
+        <!-- [結果一覧]リスト -->
+        <ListView
+            android:id="@+id/list_answer_result"
+            android:divider="#FF7F50"
+            android:dividerHeight="1dp"
+            android:scrollingCache="false"
+            android:fadingEdge="none"
+            android:fadeScrollbars="false"
+            android:fastScrollEnabled="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_answer_result_titlebar_main"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <!-- 画面タイトル -->
+    <TextView
+        android:id="@+id/text_answer_result_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:paddingLeft="2dp"
+        android:textColor="#FFFFFF"
+        android:text="@string/title_answer_result"
+        />
+    <!-- [メニューへ戻る]アイコン  -->
+    <ImageView
+        android:background="@drawable/custom_ic_frame"
+        android:id="@+id/ic_prev_menu"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/btn_prev_menu"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_menu"
+        />
+
+</RelativeLayout>
